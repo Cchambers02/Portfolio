@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+@media screen and (min-width: 768px) {
+    .section{
+        padding:3rem
+    }
+
+}
+@media screen and (max-width: 1100px) {
+    .section{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .section img {
+        max-width: 80%;
+        margin-top: 1rem;
+    }
+
+    .section.text {
+        max-width: 100%;
+    }
+
+    .softTitle, .aboutMe {
+        font-size: 4rem;
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.project-info-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-info {
+    flex: 1;
+    min-width: 200px;  /* Adjust based on your design preferences */
+    text-align: center;
+}
+
+.project-number {
+    display: block; 
+    font-size: larger;
+    cursor: pointer; 
+}
+
+.project-container{
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-items {
+    background-color:black;
+    padding: 3rem;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+}
+
+.project-items img {
+    height: 10rem;
+    padding: 20px;
+}
+
+
+.profilePic img{
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: cover;
+    clip-path: ellipse(100% 160% at 100% 100%);
+}
+
+.profilePic{
+    overflow: hidden;
+}
+
+
+body {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+li {
+    flex-direction: row;
+}
+
+.nav-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    overflow: hidden;
+    flex-direction:row;
+    font-size: 30px;
+    background-color: black;
+}
+
+.nav-tabs li {
+    width: auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.intro, h1, h2{
+    padding: 60px;
+    margin: 0px;
+}
+
+
+li a:hover{
+    color:#15959c;
+}
+
+h1 {
+    font-size: 7rem;
+    padding: 60px;
+
+}
+
+.project-info{
+    padding: 20px;
+    background-color: black;
+    max-width: 100%;
+    width: 200px;
+    margin: 4rem;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.myResume{
+    padding: 30px;
+    background-color: black;
+    max-width: 100%;
+    width: 200px;
+    margin: 4rem;
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+    cursor: pointer;
+}
+
+.myResume a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#About{
+    background-color:  white;
+    color: black;
+    height: auto;
+}
+
+#Project{
+    background-color :rgb(103, 99, 99)
+}
+
+#Contact{
+    color: black;
+    background-color:white;
+}
+
+#Home img{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-image: url('https://wallpapers.com/images/hd/grey-background-u7b32w7tyevwotod.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    overflow: hidden;
+    text-overflow:clip;
+    height: auto;
+}
+
+#Home > div {
+    width: auto;
+}
+
+section{
+    height: 100vh;
+}
