@@ -82,6 +82,7 @@ img{
 .project-items img {
     height: 10rem;
     padding: 20px;
+    cursor: pointer;
 }
 
 
@@ -105,6 +106,16 @@ body {
 
 }
 
+#projectsCompleted {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#yearsExperience{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 li {
     flex-direction: row;
 }
@@ -123,6 +134,14 @@ li {
 .nav-tabs li {
     width: auto;
 }
+
+
+#navbar #greeting {
+    color: white; /* Set the color of the greeting text */
+    font-size: 2.5rem; /* Adjust the size as needed */
+    padding-left: 45%;
+}
+
 
 li a {
     display: block;
@@ -187,9 +206,28 @@ h1 {
 }
 
 #Contact{
-    color: black;
-    background-color:white;
+    color: white;
+    background-color:rgb(22, 22, 22);
 }
+
+.contact-container{
+    display: block;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.form-group{
+    padding: 10px;
+
+}
+
+input, textarea{
+    width: 50%;
+    height: 3rem;
+}
+
 
 #Home img{
     display: flex;
@@ -218,4 +256,10 @@ h1 {
 
 section{
     height: 100vh;
+}
+
+.highlight{
+    box-shadow: white;
+    transform: scale(1.15);
+    transition: all 0.4s ease-in-out;
 }

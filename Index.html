@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 </head>
@@ -14,6 +14,7 @@
                 <li><a href="#Project" >Projects</a></li>
                 <li><a href="#About" >About</a></li>
                 <li><a href="#Contact" >Contact</a></li>
+                <span id="greeting">Good Morning</span>
             </ul>
         </nav>
     </header>
@@ -80,17 +81,26 @@
                 <h3>SQL Ecommerce</h3>
                 <img src="http://placehold.it/">
             </div>
-            <div class="project-items">
-                <h3>SQL Ecommerce</h3>
-                <img src="http://placehold.it/">
-            </div>
         </div>
     </section>
 
 </main>
     <section class="section" id="Contact">
         <footer>
-            <h1>Contact Me At: <a href="http://gmail.com" target="_blank"> chamberscornell@gmail.com</a></h1>
+            <h1> Let's Work<br> Together</h1>
+            <form>
+                <div class="contact-container">
+                    <div class="form-group">
+                        <input type="name" placeholder="Your Name" id="first">
+                        <input type="email" placeholder="Your@email.com" id="email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Type your Message..."></textarea>
+                    </div>
+                    <button id="submit">Submit</button>
+                </div>
+            </form>
+            <h2>Contact Me At: <a href="http://gmail.com" target="_blank"> chamberscornell@gmail.com</a></h2>
         </footer>
     </section>
     <script src="index.js"></script>
