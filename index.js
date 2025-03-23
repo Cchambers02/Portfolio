@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Ensuring the DOM is fully loaded before executing scripts
+//highlight function
 document.addEventListener('DOMContentLoaded', function() {
     // Select all elements with the class 'project-items'
     const projectItems = document.querySelectorAll('.project-items');
@@ -57,6 +57,23 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all elements with the class 'project-items'
+    const projectItems = document.querySelectorAll('.myResume');
+
+    // Add event listeners to each project item
+    projectItems.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            item.classList.add('highlight'); // Add 'highlight' class on mouseover
+        });
+
+        item.addEventListener('mouseout', () => {
+            item.classList.remove('highlight'); // Remove 'highlight' class on mouseout
+        });
+    });
+});
+
+// Greeting Function
 document.addEventListener('DOMContentLoaded', function() {
     const greetingElement = document.getElementById('greeting');
     currentTime = new Date().getHours();

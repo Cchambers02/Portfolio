@@ -199,6 +199,40 @@ h1 {
     background-color:  white;
     color: black;
     height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.column{
+    flex: 1;
+    padding:20px;
+}
+
+.aboutDesc{
+}
+
+.icon-container{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.skills{
+    font-size:20px;
+    text-align: center;
+}
+
+.skill {
+    flex-basis: 30%;
+    text-align: center;
+    margin: 10px;
+}
+.skill i {
+    font-size: 24px;
+    color: #4A90E2;
+}
+.skill p {
+    margin-top: 5px;
 }
 
 #Project{
@@ -240,7 +274,7 @@ input, textarea{
     align-items: center;
     padding: 0;
     margin: 0;
-    background-image: url('https://wallpapers.com/images/hd/grey-background-u7b32w7tyevwotod.jpg');
+    background-image: url('images/grey-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
