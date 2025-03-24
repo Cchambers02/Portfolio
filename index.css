@@ -65,7 +65,7 @@ img{
 }
 
 .project-container{
-    padding: 20px;
+    padding: 10px;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -73,7 +73,7 @@ img{
 
 .project-items {
     background-color:rgb(93, 95, 134);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
     height: auto;
     text-align: center;
@@ -83,7 +83,7 @@ img{
 }
 
 .project-items img {
-    height: 10rem;
+    height: 5rem;
     padding: 20px;
     cursor: pointer;
 }
